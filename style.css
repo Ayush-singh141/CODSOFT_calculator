@@ -8,16 +8,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
     background-image: linear-gradient(to top right, rgb(16, 15, 15) , rgb(0, 247, 255));;
 }
 #calculator{
-    margin-top: 4px;
+    margin-top: -10px;
     font-family: "MonumentExtended-Regular";
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 60vw;
-    height: 96vh;
+    width: 39vw;
+    height: 100vh;
     overflow: hidden;
 }
 #display{
