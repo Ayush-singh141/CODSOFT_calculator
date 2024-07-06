@@ -1,0 +1,66 @@
+@font-face {
+    font-family: MonumentExtended-Regular;
+    src: url("MonumentExtended-Regular.otf") format("opentype");
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top right, rgb(16, 15, 15) , rgb(0, 247, 255));;
+}
+#calculator{
+    margin-top: 4px;
+    font-family: "MonumentExtended-Regular";
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 400px;
+    height: 570px;
+    overflow: hidden;
+}
+#display{
+    font-family: "MonumentExtended-Regular";
+    width: 100%;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    height: 15vh;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    font-family: "MonumentExtended-Regular";
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.operator-btn{
+    background-color: hsl(181, 100%, 55%);
+}
+.operator-btn:hover{
+    background-color: hsl(180, 100%, 73%);
+}
+.operator-btn:active{
+    background-color: hsl(181, 98%, 80%);
+}
