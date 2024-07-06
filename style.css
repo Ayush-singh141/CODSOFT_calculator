@@ -16,8 +16,8 @@ body{
     font-family: "MonumentExtended-Regular";
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 400px;
-    height: 570px;
+    max-width: 60vw;
+    height: 96vh;
     overflow: hidden;
 }
 #display{
